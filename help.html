@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CQM Validator Help</title>
+</head>
+<body>
+<h1>CQM Validator Help</h1>
+
+<ul>
+    <h3>List of Methods:</h3>
+    <li><b><a href="/">/</a></b>: Displays this page.</li>
+    <li><b><a href="/help">/help</a></b>: Display this page.</li>
+    <li><b><a href="/listSupportedMeasures">/listSupportedMeasures</a></b>: Returns list of supported CQM Measures</li>
+    <li><b><a href="">/validateMeasures[ccdaFile, measuresToTest]</a></b>: Accepts a POST that includes the base64 encoded CCDA
+        'Transition of Care' document and the list of measures to test. It will return a JSON formatted report of the
+        measures tested and if the patient would be included in the population for the numerator and denominator. If
+        you use the keyword 'ALL' for the list of measures,it will test all of the supported measures.</li>
+</ul>
+
+<ul>
+    <h3>Current Measure List:</h3>
+    <li>NQF0002:Appropriate Testing for Children with Pharyngitie</li>
+    <li>NQF0018</li>
+    <li>NQF0022</li>
+    <li>NQF0028</li>
+    <li>NQF0031</li>
+    <li>NQF0032</li>
+    <li>NQF0033</li>
+    <li>NQF0036</li>
+    <li>NQF0043</li>
+    <li>NQF0055</li>
+    <li>NQF0056</li>
+</ul>
+</body>
+</html>
