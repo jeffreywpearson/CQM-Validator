@@ -1,4 +1,10 @@
 {
   "name": "CQM-Validator",
-  "version": "0.0.1"
+  "description":"The is a node web service that takes in a Transition of Care CCDA and validates against different CQM rules.",
+  "version": "0.0.1",
+  "dependencies": {
+    "hapi": "*",
+    "node-rules": "*",
+    "inert": "*"
+  }
 }
